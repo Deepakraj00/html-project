@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-    <div id="id1"><h2>Akash Hi-Fi Textiles</h2>
+    <div id="id1"><h2>Deepak Gokul Arjun Hi-Fi Textiles</h2>
     <h3>We are launching Soon</h3>
     <span id="day"></span> Days:
     <span id="hour"></span> Hours:
@@ -33,7 +33,7 @@
     <span id="second"></span> Seconds</div>
     <script>
         function countDown(){
-            const countDate=new Date("Mar 20, 2024 15:30:00").getTime();
+            const countDate=new Date("Mar 18, 2024 18:30:00").getTime();
             const now=new Date().getTime();  
             const gap=countDate-now;
         
@@ -51,6 +51,7 @@
         document.querySelector("#hour").innerText=textHour;
         document.querySelector("#minute").innerText=textMinute;
         document.querySelector("#second").innerText=textSecond;
+       
         }
         setInterval(countDown,1000);
         </script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>show content</title>
+  
+</head>
+<body>
+    <div id="id1">we are learning JQuery</div>
+    <button id="showbtn" onclick="showfun()">show</button>
+    <button id="hidebtn" onclick="hidefun()">hide</button>
+    <script>
+        var s=document.querySelector("#id1");
+        function showfun()
+        {
+            
+            s.style.display="block";
+            // s.style.visibility="visible";
+        }
+        function hidefun()
+        {
+            s.style.display="none";
+            // s.style.visibility="hidden";
+        }
+      </script>
+</body>
+</html>
